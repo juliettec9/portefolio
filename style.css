@@ -1,0 +1,336 @@
+body{
+    background-image: url(image/city.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(4px);
+    color: aliceblue;
+}
+
+.boite{
+    display: flex;
+    background-color: beige;
+    border: solid 5px rgb(3, 0, 0);
+    border-radius: 1.75rem;
+    color: #000;
+    padding: 30px;
+    margin: 30px 20% 30px;
+    text-align: center;
+    flex-direction: column;
+    filter: drop-shadow(0 0 0.75rem rgb(5, 24, 24));
+    align-items: center;
+}
+
+.cv{
+    border: solid 5px rgb(3, 0, 0);
+    border-radius: 1.75rem;
+    text-align: center;
+}
+
+.titre{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.soustitre{
+    text-decoration: underline;
+    background-color: aliceblue;
+    border: solid 5px rgb(3, 0, 0);
+    border-radius: 1.75rem;
+    color: #000;
+    padding: 20px;
+}
+
+.texte{
+    font-family: Times New Roman Italic;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.site{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.iconcontact{
+    width: 40px;
+    height: 40px;
+    border-radius: 1.75rem;
+    margin-right: 10px;
+}
+
+.contacttextimportant{
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.compe{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.misenpage{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.icon{
+    display: flex;
+    width: 230px;
+    height: 140px;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 255, 255));
+    border: solid 4px rgb(3, 0, 0);
+    border-radius: 2.75rem;
+}
+
+.iconapp{
+    display: flex;
+    width: 100px;
+    height: 140px;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 255, 255));
+    border: solid 4px rgb(3, 0, 0);
+    border-radius: 2.75rem;
+}
+
+.texteprojet{
+    color: #000;
+    text-align: center;
+    padding-top: 8.5rem;
+    filter: opacity(90%);
+    text-decoration: none;
+}
+
+.textprojetsoustitre {
+    filter: opacity(80%);
+    text-decoration: none;
+}
+
+#projet1{
+    width: 180px;
+    height: 400px;
+    background-image: url(image/cassebrique/cassebrique.png);
+    background-size: cover;
+    background-position: center;
+    border: solid 4px rgb(0, 0, 0);
+    border-radius: 2.75rem;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 255, 255));
+    margin-bottom: 15px;
+    filter: brightness(70%);
+}
+
+.legende{
+    display: flex;
+    width: 460px;
+    height: 280px;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 255, 255, 0.473));
+    border: solid 2px rgb(3, 0, 0);
+    border-radius: 2.75rem;
+    margin-bottom: 5px;
+}
+
+#projet2{
+    width: 180px;
+    height: 400px;
+    background-image: url(image/iot/principale.jpg);
+    background-size: cover;
+    background-position: center;
+    border: solid 4px rgb(0, 0, 0);
+    border-radius: 2.75rem;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 255, 255));
+    margin-bottom: 15px;
+    filter: brightness(70%);
+}
+
+#projet3{
+    width: 180px;
+    height: 400px;
+    background-image: url(image/dht22/dht.jpg);
+    background-size: cover;
+    background-position: center;
+    border: solid 4px rgb(3, 0, 0);
+    border-radius: 2.75rem;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 255, 255));
+    margin-bottom: 15px;
+    filter: brightness(70%);
+}
+
+#projet4{
+    width: 180px;
+    height: 400px;
+    background-image: url(image/masterm/page1.png);
+    background-size: cover;
+    background-position: center;
+    border: solid 4px rgb(3, 0, 0);
+    border-radius: 2.75rem;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 255, 255));
+    margin-bottom: 15px;
+    filter: brightness(70%);
+}
+
+header, footer {
+    display: flex;
+    background-color: rgb(205, 255, 251);
+    justify-content: center;
+    padding: 10px;
+    border-radius: 2.5rem;
+    border: solid 2px rgb(45, 33, 33);
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.pageactuel{
+    text-decoration: underline red 3px;
+    display: flex;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+}
+
+.lienprincipale{
+    display: flex;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+                /* hover */
+
+.icon:hover{
+    filter: drop-shadow(0 0 0.75rem rgb(255, 0, 0));
+    transform: scale(1.1);
+}
+
+.iconapp:hover{
+    filter: drop-shadow(0 0 0.75rem rgb(255, 0, 0));
+    transform: scale(1.1);
+    width: 230px;
+}
+
+#projet1:hover {
+    filter: drop-shadow(0 0 0.75rem rgb(255, 0, 0));
+    transform: scale(1.1);
+    width: 300px;
+}
+
+#projet2:hover {
+    filter: drop-shadow(0 0 0.75rem rgb(255, 0, 0));
+    transform: scale(1.1);
+    width: 300px;
+}
+
+#projet3:hover {
+    filter: drop-shadow(0 0 0.75rem rgb(255, 0, 0));
+    transform: scale(1.1);
+    width: 300px;
+}
+
+#projet4:hover {
+    filter: drop-shadow(0 0 0.75rem rgb(255, 0, 0));
+    transform: scale(1.1);
+    width: 300px;
+}
+
+.pageactuel:hover{
+    background-color: rgb(207, 114, 160);
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 2.75rem;
+    color: aliceblue;
+    filter: drop-shadow(0 0 0.75rem rgb(220, 20, 203));
+    transform: scale(1.1);
+}
+
+.lienprincipale:hover{
+    background-color: rgb(207, 114, 160);
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 2.75rem;
+    color: aliceblue;
+    filter: drop-shadow(0 0 0.75rem rgb(220, 20, 203));
+    transform: scale(1.1);
+}
+
+            /* responsive */
+
+@media (width < 500px) {
+
+    header, footer {
+        padding: 5px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .boite{
+        padding: 10px;
+        margin: 10px 0% 10px;
+    }
+
+    .icon{
+        width: 115px;
+        height: 70px;
+    }
+
+    .iconapp{
+        width: 115px;
+        height: 70px;
+    }
+
+    .iconapp:hover{
+        width: 115px;
+    }
+
+    .cv{
+        width: 210px;
+        height: 300px;
+    }
+
+    #projet1{
+        width: 90px;
+        height: 200px;
+        margin-bottom: 7px;
+    }
+    
+    #projet2{
+        width: 90px;
+        height: 200px;
+        margin-bottom: 7px;
+    }
+    
+    #projet3{
+        width: 90px;
+        height: 200px;
+        margin-bottom: 7px;
+    }
+
+    .legende{
+        width: 230px;
+        height: 140px;
+    }
+
+    #projet1:hover {
+        width: 150px;
+    }
+    
+    #projet2:hover {
+        width: 150px;
+    }
+    
+    #projet3:hover {
+        width: 150px;
+    }
+    
+    #projet4:hover {
+        width: 150px;
+    }
+    
+    #projet4{
+        width: 90px;
+        height: 200px;
+        margin-bottom: 7px;
+    }
+
+    .texteprojet{
+        padding-top: 2rem;
+    }
+  }
